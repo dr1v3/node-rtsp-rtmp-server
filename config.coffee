@@ -6,15 +6,15 @@ module.exports =
   ############################
 
   # Server listen port
-  serverPort: 80
+  serverPort: 9999
 
   # RTMP server listen port
-  rtmpServerPort: 1935
+  rtmpServerPort: 8888
 
   # Server name which will be embedded in
   # RTSP and HTTP response headers.
   # Default server name is used when this value is null.
-  serverName: 'node-rtsp-rtmp-server'
+  serverName: 'churchblaze-live-server'
 
   # Average frame rate of video (informative)
   videoFrameRate: 30
