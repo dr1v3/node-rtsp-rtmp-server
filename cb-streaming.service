@@ -5,8 +5,8 @@ Description=Churchblaze streaming service
 # The PID file is optional, but recommended in the manpage
 # "so that systemd can identify the main process of the daemon"
 # PIDFile=/var/run/cb-streaming.pid
-ExecStart=/usr/bin/node /usr/bin/coffee \
-	/home/admin/projects/node-rtsp-rtmp-server/server.coffee
+ExecStart=/usr/bin/node /usr/lib/node_modules/coffee-script/bin/coffee \
+	/opt/node-rtsp-rtmp-server/server.coffee
 Restart=always
 User=www-data
 Group=www-data
